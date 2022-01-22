@@ -1,3 +1,3 @@
 # Contact Keeper
 
-This is contact keeper webiste utilizes MERN.
+Contact keeper webiste utilizes MERN.
