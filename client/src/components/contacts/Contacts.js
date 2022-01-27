@@ -17,7 +17,7 @@ const Contacts = () => {
       {filtered !== null
         ? filtered.map((contact) => (
             <motion.div
-              key={contact.id}
+              key={contact._id}
               layout
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -28,7 +28,7 @@ const Contacts = () => {
           ))
         : contacts.map((contact) => (
             <motion.div
-              key={contact.id}
+              key={contact._id}
               layout
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
