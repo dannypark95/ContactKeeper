@@ -17,7 +17,7 @@ const ContactForm = () => {
         type: 'personal',
       });
     }
-  }, [contactContext, current]);
+  }, [current]);
 
   const [contact, setContact] = useState({
     name: '',
