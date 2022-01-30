@@ -1,8 +1,10 @@
 node_modules/
 client/node_modules/
 config/
- 
+.vscode/
+
 /client/build
+
  
 .DS_Store
 /client/.env.local
